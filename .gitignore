@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vscode
+.env
+.serverless/*
+serverless/node_modules/** */
+serverless/serverless-env-config/
+
+
+**/*/.DS_Store

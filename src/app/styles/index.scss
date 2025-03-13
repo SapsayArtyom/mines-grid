@@ -1,0 +1,20 @@
+@use "reset";
+@use "variables/global" as *;
+@use "themes/normal" as normal;
+@use "themes/dark" as dark;
+
+.app {
+    font: $font-m;
+    background: normal.$bg-color;
+    color: normal.$primary-color;
+    min-height: 100vh;
+}
+
+.content-page {
+    display: flex;
+}
+
+.page-wrapper {
+    flex-grow: 1;
+    padding: 20px;
+}
